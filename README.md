@@ -1,4 +1,5 @@
 <p><a target="_blank" href="https://app.eraser.io/workspace/Ux4DPV1fQsUtf4Ymo83M" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
+#Pool My Ride
 
 This repository contains the browser-based interface as well as the back-end architecture for the PoolMyRide web-based software
 
@@ -24,14 +25,8 @@ Unlike traditional ride-sharing services, PoolMyRide does not employ dedicated d
 
 This is however, not all, ****we are also tackling traffic congestion as well as vehicular problems!** ** and that too with no added costs! This happens indirectly based on how helpful our community is towards themselves.
 
-## Flowchart:
-[﻿Here is the flowchart diagram detailing the working of PoolMyRide](https://app.eraser.io/workspace/Ux4DPV1fQsUtf4Ymo83M?elements=XyjzHmYyQ7QzdhTb9oqdvQ) 
-
-
-
-
 <!-- eraser-additional-content -->
-## Diagrams
+## Flowchart
 <!-- eraser-additional-files -->
 <a href=".eraser/PoolMyRide-PoolMyRide Application Flowchart-1.eraserdiagram" data-element-id="gpPiDdbtwHzjsl8QWuXvo"><img src="/.eraser/Ux4DPV1fQsUtf4Ymo83M___5cyi0B0QqEc7iobz6kyKpqq0XXR2___---diagram----c50e19fc9a3cf2a76e6c466a520ded6a-PoolMyRide-Application-Flowchart.png" alt="" data-element-id="gpPiDdbtwHzjsl8QWuXvo" /></a>
 <!-- end-eraser-additional-files -->
