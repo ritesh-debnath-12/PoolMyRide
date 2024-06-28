@@ -1,0 +1,37 @@
+flowchart-diagram
+
+title PoolMyRide Application Flowchart
+
+// KYC (Sign-up) Process
+KYC Start [shape: oval, icon: user-plus] > Register [icon: form]
+Register > Basic Details [icon: id-card]
+Basic Details > Default Role: Rider [icon: user]
+Default Role: Rider > Ask for Driver Role [shape: diamond, icon: user-check]
+Ask for Driver Role > In-depth KYC [icon: file-text]: Yes
+Ask for Driver Role > KYC End [shape: oval, icon: check-circle]: No
+In-depth KYC > Vehicle Details [icon: car]
+Vehicle Details > KYC End [shape: oval, icon: check-circle]
+
+// Main Working Process
+Main App Functionality Start [shape: oval, icon: play-circle] > Driver Submits Route [icon: map-pin]
+Driver Submits Route > Highlight Route Globally [icon: globe]
+Highlight Route Globally > Riders Ask for Pool Ride [icon: message-square]
+Riders Ask for Pool Ride > Communication Method [shape: diamond, icon: phone]
+Communication Method > In-app Chat [icon: message-circle]: Chat
+Communication Method > Provide Phone Number [icon: phone]: Phone
+In-app Chat > Negotiate Pool Ride [icon: handshake]
+Provide Phone Number > Negotiate Pool Ride [icon: handshake]
+Negotiate Pool Ride > Driver Submits Willingness [shape: diamond, icon: thumbs-up]
+Driver Submits Willingness > Show Rider Position [icon: map-pin]: Yes
+Driver Submits Willingness > End Process [shape: oval, icon: x-circle]: No
+Show Rider Position > Journey Start [icon: map]
+Journey Start > Check Battery Level [shape: diamond, icon: battery]
+Check Battery Level > Deny Service [shape: oval, icon: x-circle]: <20%
+Check Battery Level > Continue Journey [icon: arrow-right]: >=20%
+Continue Journey > Journey End [icon: flag-checkered]
+Journey End > Feedback [icon: thumbs-up]
+Feedback > End Process [shape: oval, icon: check-circle]
+
+// Other Features
+Other Features [shape: rectangle, icon: more-horizontal] > TBA [icon: file]
+
