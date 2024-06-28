@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+    body{
+        @apply bg-gradient-to-b from-black to-gray-800 text-white min-h-screen ;
+    }
+}
+
+.glowing-underline::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+    transition: width 0.3s, box-shadow 0.3s;
+}
+
+.glowing-underline:hover::after {
+    width: 100%;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+}
+
+.glowing-underline:hover {
+    color: white;
+    text-shadow: 0 0 5px white, 0 0 10px white;
+}
+
+.glowing-underline:hover::after {
+    width: 100%;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+}
+.underline-animation {
+  position: relative;
+}
+
+.underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transition: width 0.3s;
+}
+
+.underline-animation:hover::after {
+  width: 100%;
+}
