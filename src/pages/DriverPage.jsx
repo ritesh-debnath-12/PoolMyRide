@@ -1,20 +1,49 @@
+import React, { useState } from 'react';
 import Driver_Card from "../Components/DriverCard/Driver_Card";
+import Map from "../Components/Map/Map";
+
 function DriverPage() {
+    const [begin, setBegin] = useState([22.8365, 88.6425]); // Default coordinates
+    const [dest, setDest] = useState([22.7000, 88.3700]); // Default coordinates
+
+    const handleSubmit = async (startLocation, endLocation) => {
+        const startCoords = await getCoordinates(startLocation);
+        const endCoords = await getCoordinates(endLocation);
+
+        setBegin(startCoords);
+        setDest(endCoords);
+    };
+
+    const getCoordinates = async (location) => {
+        try {
+            const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(location)}`);
+            const data = await response.json();
+            if (data && data.length > 0) {
+                return [parseFloat(data[0].lat), parseFloat(data[0].lon)];
+            }
+        } catch (error) {
+            console.error("Error fetching coordinates:", error);
+        }
+        return [0, 0]; // Default to (0,0) if no data is found
+    };
+
     return (
-        <>
-        <title>Drive with us</title>
+        <div className='p-14'>
+            <title>Drive with us</title>
             <div className="flex justify-center my-2 mt-28 rounded">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.746095513458!2d88.44517707516258!3d22.959576179217912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027730302f6e25%3A0xe50dfccae21e1fc!2sJIS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1719417629591!5m2!1sen!2sin" width="1500" height="500" className="border-0" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <Map begin={begin} dest={dest} className="!h-1/3"></Map>
             </div>
             <div className="flex items-center justify-around gap-32">
-                <Driver_Card/>
+                <Driver_Card onSubmit={handleSubmit} />
                 <div className="flex flex-col justify-center">
-                    <div className="w-96"><a href="#"><img src="./src/assets/WhiteCar.png" alt="" /></a></div>
+                    <div className="w-96">
+                        <a href="#"><img src="./src/assets/WhiteCar.png" alt="" /></a>
+                    </div>
                     <p className="text-white text-5xl font-bold mt-5 pl-12">PoolMyRide</p>
                 </div>
             </div>
-        </>
-    )
+        </div>
+    );
 }
 
 export default DriverPage;

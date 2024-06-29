@@ -1,6 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
-
 import Navbar from "./Components/Navbar/Navbar"
 import HomePage from "./pages/HomePage"
 import Footer from "./Components/Footer/Footer"
@@ -8,7 +7,6 @@ import LoginPage from "./pages/LoginPage"
 import NotFound from "./pages/NotFound"
 import RidePage from "./pages/RidePage"
 import DriverPage from "./pages/DriverPage"
-import SignUp from "./pages/SignUp"
 import SignupCard from "./Components/SignUpCard/SignUpCard"
 
 import Login from "./Components/Login/Login"
@@ -44,7 +42,7 @@ function App() {
     <>
       <Navbar/>
       <RouterProvider router={router}/>
-      {/* <Footer/> */}
+      <Footer/>
     </>
 
   //   <>
