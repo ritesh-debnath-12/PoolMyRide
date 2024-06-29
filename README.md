@@ -7,8 +7,6 @@ This repository contains the browser-based interface as well as the back-end arc
 ## ❔ What is it?
 The core idea behind "**Pool My Ride**" is to create a community-driven carpooling platform that connects drivers and riders traveling in the same direction. This platform aims to leverage the unused capacity of personal vehicles, making daily commutes more cost-effective and environmentally friendly
 
- The core idea behind "
-
 ### How so?
 We will look at an example, between Ramesh and Suresh.
 
@@ -52,6 +50,6 @@ Glad you asked 😊! We are always looking for enthusiastic developers. If you w
 
 <!-- eraser-additional-content -->
 <!-- eraser-additional-files -->
-<<!-- end-eraser-additional-files -->
+<!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/Ux4DPV1fQsUtf4Ymo83M --->
