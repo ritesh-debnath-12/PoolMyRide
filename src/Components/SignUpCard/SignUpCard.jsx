@@ -11,6 +11,7 @@ function SignUpCard() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-background mt-14">
+      <title>SignUp</title>
       <div className="rounded-lg border bg-card text-card-foreground shadow-sm w-full max-w-md p-6 sm:p-8" data-v0-t="card">
         <div className="flex flex-col space-y-1.5 p-6">
           <h3 className="whitespace-nowrap tracking-tight text-2xl font-bold">Rider Registration</h3>

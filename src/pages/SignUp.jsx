@@ -1,10 +1,10 @@
 import SignUpCard from "../Components/SignUpCard/SignUpCard";
 
-function DriverLogin(){
+function SignUp(){
     <>
     <title>SignUp</title>
     <SignUpCard />
     </>
 }
 
-export default DriverLogin
+export default SignUp;
