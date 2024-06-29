@@ -8,7 +8,7 @@ function RidePage() {
         <div>
             <Navbar></Navbar>
             <RidePageCard></RidePageCard>
-            <p className="text-6xl">Click on a pin to check for its route</p>
+            <p className="text-6xl text-center">Click on a pin to check for its route</p>
             <Map></Map>
             <Footer></Footer>
         </div>
