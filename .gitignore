@@ -15,6 +15,7 @@ dist-ssr
 # Virtual env
 /venv
 /venv/*
+/credentials.json
 
 # Editor directories and files
 .vscode/*
