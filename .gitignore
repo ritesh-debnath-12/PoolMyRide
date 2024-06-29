@@ -13,6 +13,7 @@ dist-ssr
 *.local
 
 # Virtual env
+/env/
 /venv
 /venv/*
 /credentials.json
