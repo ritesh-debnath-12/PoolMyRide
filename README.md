@@ -51,9 +51,7 @@ Please follow the following steps:
 Glad you asked 😊! We are always looking for enthusiastic developers. If you want to contribute, please clone the application, and make your changes. Once you are complete, then create a separate branch and send a pull request. Our team will reach out to you at the earliest!
 
 <!-- eraser-additional-content -->
-## 💭 Flowchart
 <!-- eraser-additional-files -->
-<a href=".eraser/PoolMyRide-PoolMyRide Application Flowchart-1.eraserdiagram" data-element-id="gpPiDdbtwHzjsl8QWuXvo"><img src="/.eraser/Ux4DPV1fQsUtf4Ymo83M___5cyi0B0QqEc7iobz6kyKpqq0XXR2___---diagram----c50e19fc9a3cf2a76e6c466a520ded6a-PoolMyRide-Application-Flowchart.png" alt="" data-element-id="gpPiDdbtwHzjsl8QWuXvo" /></a>
-<!-- end-eraser-additional-files -->
+<<!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/Ux4DPV1fQsUtf4Ymo83M --->
