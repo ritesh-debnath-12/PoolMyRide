@@ -40,8 +40,8 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router}/>
       <Navbar/>
+      <RouterProvider router={router}/>
       {/* <Footer/> */}
     </>
 
