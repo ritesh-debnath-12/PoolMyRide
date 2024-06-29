@@ -48,11 +48,20 @@ def add_user():
         })
         
         return jsonify({'status': 'success', 'message': 'User added successfully'}), 201
-    
+
     except Exception as e:
         app.logger.error("Error: {}".format(str(e)))
         return jsonify({'status': 'error', 'message': str(e)}), 500
-        
+
+@app.route('/validate_user', methods=['POST'])
+def validate_user(email, password):
+    user_ref = db.collection('users').document(email)
+    user = user_ref.get()
+    if user.exists:
+        user_data = user.to_dict()
+        if user_data['pass'] == password:
+            return True
+    return False
         
 
 if __name__ == "__main__":
