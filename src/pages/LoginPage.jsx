@@ -2,6 +2,7 @@ function LoginPage(){
 
     return(
             <div className="min-h-screen flex items-center justify-center">
+              <title>Login</title>
               <div className="max-w-md w-full bg-white shadow-md rounded-lg p-8">
                 <div className="flex justify-center mb-4">
                   <img src="/src/assets/logo.png" alt="PoolMyRide Logo" className="w-24 h-16"/>

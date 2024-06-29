@@ -6,6 +6,7 @@ import Recent_Riders from "../Components/Dashboard/Recent_Riders";
 function Dashboard() {
     return (
         <>
+            <title>Dashboard</title>
             <div className="flex h-screen">
                 <Sidebar />
                 <div className="flex-1 pt-8 mx-6">
