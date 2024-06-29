@@ -11,6 +11,8 @@ import DriverPage from "./pages/DriverPage"
 import SignUp from "./pages/SignUp"
 import SignupCard from "./Components/SignUpCard/SignUpCard"
 
+import Login from "./Components/Login/Login"
+
 const router = createBrowserRouter([
   {
     path: '/',
