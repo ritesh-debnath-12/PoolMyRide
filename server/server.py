@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
@@ -8,8 +10,8 @@ from firebase_admin import firestore
 
 app = Flask(__name__)
 CORS(app)
-
-cred = credentials.Certificate("../credentials.json")
+CURR_DIR = os.path.dirname(os.path.realpath(__file__))
+cred = credentials.Certificate(str(CURR_DIR)+'\\..\\credentials.json')
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()

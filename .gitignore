@@ -13,6 +13,7 @@ dist-ssr
 *.local
 
 # Virtual env
+/env/
 /venv
 /venv/*
 /credentials.json
@@ -28,4 +29,5 @@ dist-ssr
 *.sln
 *.sw?
 
+# Easter Egg!
 test_secret.env
