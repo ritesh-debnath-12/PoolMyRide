@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer"
 import LoginPage from "./pages/LoginPage"
 import NotFound from "./pages/NotFound"
 import DriverPage from "./pages/DriverPage"
+import FetchData from "./pages/FetchData"
 
 const router = createBrowserRouter([
   {
@@ -26,14 +27,18 @@ const router = createBrowserRouter([
     path: '/drive',
     element: <DriverPage/>
   },
+  {
+    path: '/fetch-data',
+    element: <FetchData/>
+  }
 ])
 
 function App() {
 
   return (
     <>
-      <RouterProvider router={router}/>
       <Navbar/>
+      <RouterProvider router={router}/>
       {/* <Footer/> */}
     </>
 
