@@ -4,6 +4,7 @@ import PrimaryCard from "../Components/PrimaryCard/PrimaryCard";
 function HomePage(){
     return(
         <>
+            <title>PoolMyCar</title>
             <div className="h-screen flex gap-x-80 flex-row items-center justify-center">
                 <PrimaryCard/>
                 <div className="text-center">
