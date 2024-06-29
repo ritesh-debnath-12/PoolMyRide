@@ -1,15 +1,21 @@
-
-
 function Navbar(){
 
     return(
         // Navbar links
         <div className="absolute top-0 left-0 w-full flex justify-between items-center p-5">
-            <div className="text-2xl flex gap-20 font-bold">PoolMyRide
-                <div class="list-none flex gap-20 font-normal text-xl">
-                    <li className="cursor-pointer relative glowing-underline pb-1">Drive</li>
-                    <li className="relative cursor-pointer glowing-underline pb-1">Ride</li>
-                    <li className="relative cursor-pointer glowing-underline pb-1">About</li>
+            <div className="text-2xl flex gap-20 font-bold">
+                <a href='/'>PoolMyRide</a>
+                <div className="list-none flex gap-20 font-normal text-xl">
+                    
+                    <li className="cursor-pointer relative glowing-underline pb-1">
+                        <a href="/drive">Drive</a>    
+                    </li>
+                    <li className="relative cursor-pointer glowing-underline pb-1">
+                        <a href="/ride">Ride</a>
+                    </li>
+                    <li className="relative cursor-pointer glowing-underline pb-1">
+                        <a href="/about">About</a>
+                    </li>
                 </div>
             </div>
 
