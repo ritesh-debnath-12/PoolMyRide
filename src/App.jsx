@@ -6,7 +6,10 @@ import HomePage from "./pages/HomePage"
 import Footer from "./Components/Footer/Footer"
 import LoginPage from "./pages/LoginPage"
 import NotFound from "./pages/NotFound"
+import RidePage from "./pages/RidePage"
 import DriverPage from "./pages/DriverPage"
+import SignUp from "./pages/SignUp"
+import SignupCard from "./Components/SignUpCard/SignUpCard"
 
 const router = createBrowserRouter([
   {
@@ -20,12 +23,17 @@ const router = createBrowserRouter([
   },
   {
     path: '/ride',
-    element: <NotFound/>
+    element: <RidePage/>
   },
   {
     path: '/drive',
     element: <DriverPage/>
   },
+  {
+    path: '/signup',
+    element: <SignupCard />
+  },
+
 ])
 
 function App() {

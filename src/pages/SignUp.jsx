@@ -1,7 +1,7 @@
 import SignUpCard from "../Components/SignUpCard/SignUpCard";
 
 function DriverLogin(){
-    <SignUpCard></SignUpCard>
+    <SignUpCard />
 }
 
 export default DriverLogin

@@ -14,3 +14,5 @@ function RidePage() {
         </div>
     );
 }
+
+export default RidePage

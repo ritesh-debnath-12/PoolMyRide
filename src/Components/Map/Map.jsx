@@ -5,3 +5,5 @@ function Map(){
         </div>
     )
 }
+
+export default Map;
