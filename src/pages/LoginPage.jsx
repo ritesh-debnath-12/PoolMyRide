@@ -1,4 +1,24 @@
+import Login from "../Components/Login/Login";
+import { useEffect } from "react";
+import { gapi } from "gapi-script";
+
+
+const clientID = "544771400207-9lnor2r261j8ei10r2e0bv0pgtm8t92o.apps.googleusercontent.com"
+
 function LoginPage(){
+
+  useEffect(()=>{
+    function start(){
+      gapi.client.init({
+        clientId: clientID,
+        scope:""
+      })
+    };
+
+    gapi.load('client:auth2', start)
+  });
+
+
 
     return(
             <div className="min-h-screen flex items-center justify-center">
@@ -55,12 +75,10 @@ function LoginPage(){
                   </div>
                   <div className="mt-6 grid grid-cols-2 gap-3">
                     <div>
-                      <button
+                      <Login
                         type="button"
                         className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-red-600 text-sm font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
-                      >
-                        Login with Google
-                      </button>
+                      />
                     </div>
                     <div>
                       <button
