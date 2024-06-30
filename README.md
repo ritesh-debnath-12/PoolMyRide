@@ -31,20 +31,12 @@ Please follow the following steps:
 - Install the required dependencies:
   ```
   npm install
-  or
-  pnpm install
-  or
-  bun install
   ```
 - Host the application locally on your system:
   ```
   npm run dev
-  or
-  pnpm run dev
-  or
-  bun run dev
   ```
-
+**NOTE: PNPM, BUN or Yarn have not been tested, you are welcome to try them, but we still recommend npm.**
 ## 🤔 How can I contribute?
 Contributions are moved to **CONTRIBUTING.md**, please take a look over there! We welcome your contributions with open arms, just follow the rules and guide there, and our team will reach out to you at the earliest.
 
