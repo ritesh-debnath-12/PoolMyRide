@@ -46,7 +46,7 @@ Please follow the following steps:
   ```
 
 ## 🤔 How can I contribute?
-Glad you asked 😊! We are always looking for enthusiastic developers. If you want to contribute, please clone the application, and make your changes. Once you are complete, then create a separate branch and send a pull request. Our team will reach out to you at the earliest!
+Contributions are moved to **CONTRIBUTING.md**, please take a look over there! We welcome your contributions with open arms, just follow the rules and guide there, and our team will reach out to you at the earliest.
 
 <!-- eraser-additional-content -->
 <!-- eraser-additional-files -->
