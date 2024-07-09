@@ -33,13 +33,13 @@ function DriverPage() {
             <div className="flex justify-center my-2 mt-28 rounded">
                 <Map begin={begin} dest={dest} className="!h-1/3"></Map>
             </div>
-            <div className="flex items-center justify-around gap-32">
+            <div className="flex items-center justify-around gap-32 max-sm:justify-center">
                 <Driver_Card onSubmit={handleSubmit} />
-                <div className="flex flex-col justify-center">
-                    <div className="w-96">
+                <div className="flex flex-col max-sm:hidden">
+                    <div className="xl:w-96">
                         <a href="#"><img src="./src/assets/WhiteCar.png" alt="" /></a>
                     </div>
-                    <p className="text-white text-5xl font-bold mt-5 pl-12">PoolMyRide</p>
+                    <p className="text-white text-5xl font-bold xl:mt-5 xl:pl-12">PoolMyRide</p>
                 </div>
             </div>
         </div>

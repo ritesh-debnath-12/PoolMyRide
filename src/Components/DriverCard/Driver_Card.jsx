@@ -11,7 +11,7 @@ function Driver_Card({ onSubmit }) {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="flex flex-col items-start gap-8 mt-14 pl-14">
+        <form onSubmit={handleSubmit} className="flex flex-col items-start gap-8 mt-14 xl:pl-14">
             <input 
                 type="text" 
                 className="text-gray-800 w-80 p-3 pl-5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900" 
