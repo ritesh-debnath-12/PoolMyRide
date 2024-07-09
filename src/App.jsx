@@ -8,7 +8,6 @@ import NotFound from "./pages/NotFound"
 import RidePage from "./pages/RidePage"
 import DriverPage from "./pages/DriverPage"
 import SignupCard from "./Components/SignUpCard/SignUpCard"
-
 import Login from "./Components/Login/Login"
 
 const router = createBrowserRouter([

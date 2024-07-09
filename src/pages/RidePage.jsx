@@ -7,7 +7,7 @@ function RidePage() {
     return (
         <div>
             <title>Ride with us</title>
-            <Navbar></Navbar>
+            {/*<Navbar></Navbar>*/}
             <RidePageCard></RidePageCard>
             <p className="text-6xl text-center">Click on a pin to check for its route</p>
             <Map></Map>
