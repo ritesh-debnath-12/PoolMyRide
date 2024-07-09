@@ -35,7 +35,7 @@ function Footer() {
             </div>
             <div className="bg-[#E9ECDB] text-black font-fontMont text-sm py-7 flex justify-around max-sm:flex-col max-sm:items-center  max-sm:py-3">
                 <p>Copyright © Men of Culture 2024-2027</p>
-                <p>Made with ♥ on Github</p>
+                <p>Made with ❤️ on Github</p>
             </div>
         </div>
     )
