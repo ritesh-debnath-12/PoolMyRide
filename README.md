@@ -24,6 +24,12 @@ Unlike traditional ride-sharing services, PoolMyRide does not employ dedicated d
 
 This is however, not all, **we are also tackling traffic congestion as well as vehicular problems!** and that too with no added costs! This happens indirectly based on how helpful our community is towards themselves. 😎
 
+## Used Tech Stacks
+### Languages:
+* **HTML, CSS, JavaScript, Tailwind CSS, React, Python**
+### API
+* **Open Street Map**
+  
 ## ⚙ Brilliant, how can I run this application? 
 Please follow the following steps:
 - Open a terminal, and clone this repository <br> ``` git clone https://github.com/ritesh-debnath-12/PoolMyRide.git ```
