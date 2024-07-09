@@ -70,7 +70,7 @@ const Map = ({ begin, dest }) => {
 
     return (
         <div className='flex justify-center items-center w-dvw'>
-            <div id="map" className="h-screen w-9/12"></div>
+            <div id="map" className="xl:h-screen max-sm:h-[60vh] max-sm:w-[80vw] w-9/12 max-sm:-mt-20 max-sm:rounded-xl"></div>
         </div>
     );
 };
