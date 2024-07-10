@@ -11,7 +11,7 @@ function RidePage() {
             <RidePageCard></RidePageCard>
             <p className="text-6xl text-center">Click on a pin to check for its route</p>
             <Map></Map>
-            <Footer></Footer>
+            {/*<Footer></Footer>*/}
         </div>
     );
 }
