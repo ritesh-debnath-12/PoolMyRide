@@ -96,7 +96,7 @@ function LoginPage(){
                       <span className="px-2 bg-white text-gray-500">or continue with</span>
                     </div>
                   </div>
-                  <div className="mt-6 grid grid-cols-2 gap-3">
+                  <div className="mt-6 flex justify-center items-center gap-5 max-sm:gap-0">
                     <div>
                       <Login
                         type="button"
@@ -106,7 +106,7 @@ function LoginPage(){
                     <div>
                       <button
                         type="button"
-                        className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-blue-600 text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-sm:w-48 max-sm:h-[43px]"
+                        className="w-full inline-flex justify-center py-2 px-4 rounded shadow-sm bg-blue-600 text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-md:w-48 max-sm:h-[43px] shadow-gray-500 items-center"
                         onClick={onValidation}
                       >
                         Login with Facebook
