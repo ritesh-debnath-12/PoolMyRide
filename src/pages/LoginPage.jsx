@@ -39,7 +39,7 @@ function LoginPage(){
   });
 
     return(
-            <div className="min-h-screen flex items-center justify-center">
+            <div className="xl:min-h-screen max-sm:h-[70vh] flex items-center justify-center max-sm:mt-12">
               <title>Login</title>
               <div className="max-w-md w-full bg-white shadow-md rounded-lg p-8 max-sm:w-[90vw]">
                 <div className="flex justify-center mb-4">
@@ -106,7 +106,7 @@ function LoginPage(){
                     <div>
                       <button
                         type="button"
-                        className="w-full inline-flex justify-center py-2 px-4 rounded shadow-sm bg-blue-600 text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-md:w-48 max-sm:h-[43px] shadow-gray-500 items-center"
+                        className="w-full inline-flex justify-center py-2 px-4 rounded shadow-sm bg-blue-600 text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-md:w-48 max-sm:h-[43px] shadow-gray-500 items-center h-[42px]"
                         onClick={onValidation}
                       >
                         Login with Facebook
