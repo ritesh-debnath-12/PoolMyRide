@@ -15,7 +15,7 @@ function Login() {
     }
 
     return(
-        <div id="siginButton">
+        <div id="siginButton" className="max-sm:w-48">
             <GoogleLogin
                 clientId={clientID}
                 buttonText="Login with Google"

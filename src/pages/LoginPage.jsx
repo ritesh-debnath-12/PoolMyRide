@@ -41,7 +41,7 @@ function LoginPage(){
     return(
             <div className="min-h-screen flex items-center justify-center">
               <title>Login</title>
-              <div className="max-w-md w-full bg-white shadow-md rounded-lg p-8">
+              <div className="max-w-md w-full bg-white shadow-md rounded-lg p-8 max-sm:w-[90vw]">
                 <div className="flex justify-center mb-4">
                   <img src="/src/assets/logo.png" alt="PoolMyRide Logo" className="w-24 h-16"/>
                 </div>
@@ -106,7 +106,7 @@ function LoginPage(){
                     <div>
                       <button
                         type="button"
-                        className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-blue-600 text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                        className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-blue-600 text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-sm:w-48 max-sm:h-[43px]"
                         onClick={onValidation}
                       >
                         Login with Facebook
