@@ -1,6 +1,6 @@
 function DriverReg({ handleDriverChange }) {
   return (
-    <div className="p-6 space-y-4 xl:mb-20 max-sm:p-1">
+    <div className="p-1 space-y-4 xl:mb-10 max-sm:p-1">
       <div className="space-y-2">
         <label
           className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
