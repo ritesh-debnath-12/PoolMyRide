@@ -45,7 +45,7 @@ function SignUpCard() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-background mt-14">
       <title>SignUp</title>
-      <div className="rounded-lg border bg-card text-card-foreground shadow-sm w-full max-w-md p-6 sm:p-8">
+      <div className="rounded-lg border bg-card text-card-foreground shadow-sm w-full max-w-md p-6 sm:p-8 max-sm:w-[90vw]">
         <div className="flex flex-col space-y-1.5 p-6">
           <h3 className="whitespace-nowrap tracking-tight text-2xl font-bold">
             Rider Registration
@@ -54,7 +54,7 @@ function SignUpCard() {
             Please provide the following information to register as a rider.
           </p>
         </div>
-        <div className="p-6 space-y-4">
+        <div className="p-6 space-y-4 max-sm:p-1">
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-2">
               <label
@@ -65,7 +65,7 @@ function SignUpCard() {
               </label>
               <input
                 name="fullName"
-                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-black"
+                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-black max-sm:text-sm max-sm:px-2"
                 id="full-name"
                 placeholder="Enter your full name"
                 type="text"
@@ -82,7 +82,7 @@ function SignUpCard() {
               </label>
               <input
                 name="age"
-                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-black"
+                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-black max-sm:text-sm max-sm:px-2"
                 id="age"
                 placeholder="Enter your age"
                 type="number"
@@ -100,7 +100,7 @@ function SignUpCard() {
             </label>
             <input
               name="email"
-              className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-black"
+              className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-black max-sm:text-sm max-sm:px-2"
               id="email"
               placeholder="Enter your email"
               type="email"
@@ -117,7 +117,7 @@ function SignUpCard() {
             </label>
             <input
               name="pass"
-              className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-black"
+              className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-black max-sm:text-sm max-sm:px-2"
               id="password"
               placeholder="Enter your password"
               type="password"
