@@ -10,7 +10,7 @@ function Dashboard() {
             <div className="flex h-screen">
                 <Sidebar />
                 <div className="flex-1 pt-8 mx-6">
-                    <section className="grid grid-cols-2 gap-6 mb-6 mt-20">
+                    <section className="xl:grid xl:grid-cols-2 gap-6 mb-6 mt-20 max-sm:flex max-sm:gap-10">
                         <Riders_served />
                         <Riders_travelled />
                     </section>
