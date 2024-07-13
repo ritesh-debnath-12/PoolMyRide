@@ -9,6 +9,7 @@ import RidePage from "./pages/RidePage"
 import DriverPage from "./pages/DriverPage"
 import SignupCard from "./Components/SignUpCard/SignUpCard"
 import Login from "./Components/Login/Login"
+import Dashboard from "./pages/Dashboard"
 
 const router = createBrowserRouter([
   {
@@ -44,11 +45,11 @@ function App() {
       <Footer/>
     </>
 
-  //   <>
-  //     <Navbar/>
-  //     <HomePage/>
-  //     <Footer/>
-  //   </>
+    /* <>
+       <Navbar/>
+       <Dashboard/>
+       <Footer/>
+     </>*/
    )
 }
 
