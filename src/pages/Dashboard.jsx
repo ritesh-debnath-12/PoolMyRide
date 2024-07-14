@@ -7,7 +7,7 @@ function Dashboard() {
     return (
         <>
             <title>Dashboard</title>
-            <div className="flex h-screen">
+            <div className="flex xl:h-screen">
                 <Sidebar />
                 <div className="flex-1 pt-8 mx-6">
                     <section className="xl:grid xl:grid-cols-2 gap-6 mb-6 mt-20 max-sm:flex max-sm:gap-10">
